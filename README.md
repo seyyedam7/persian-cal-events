@@ -10,7 +10,7 @@ This package aims to provide events for Persian calendar (jalali) crawling time.
 * Indicates if an event is due to religious reasons
 
 ## Installation
-    composer require seyyedam7/persian-cal-event
+    composer require seyyedam7/persian-cal-events
 
 ## Usage
     PersianCalEvent::jalali(1398, 1, 1);
