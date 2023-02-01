@@ -9,7 +9,8 @@
             "email": "mousavi7731@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
+    "minimum-stability": "dev",
     "require": {
 		"php": "^8.0",
         "ext-curl": "*",
