@@ -1,0 +1,27 @@
+{
+    "name": "seyyedam7/persian-cal-events",
+    "description": "Persian (Jalali) calendar events package",
+    "keywords": ["calendar", "jalali", "holiday", "event", "persian"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seyyed Ahmad Mousavi",
+            "email": "mousavi7731@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": "^8.0",
+        "ext-curl": "*",
+        "nesbot/carbon": "^2.61",
+        "ext-json": "*"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "seyyedam7\\PersianCalEvent\\": "src/"
+        }
+    }
+}
